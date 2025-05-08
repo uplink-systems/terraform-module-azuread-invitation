@@ -4,21 +4,12 @@
 
 The module **terraform-module-azuread-invitation** is intended to create invitations for guest accounts in Azure AD following my business needs and standards.
 
-#### Tasks & ToDos
-
-- [x] Create and manage invitations
-- [x] \(Optional) Apply input variable validation rules if necessary to match available resource values
-- [ ] \(Optional) Apply input variable validation rules if necessary to match business standards
-- [x] Create and manage modules outputs
-- [ ] Document module with README.md
-- [ ] \(Optional) Review code regularly for possible improvements and updates
-
 ### Requirements
 
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.9.0 |
-| <a name="requirement_azuread"></a> [hashicorpe\/azuread](#requirement\_azuread) | ~> 3.0 |
+| <a name="requirement_azuread"></a> [hashicorp\/azuread](#requirement\_azuread) | ~> 3.0 |
 
 ### Resources
 
@@ -65,9 +56,6 @@ output "azuread_invitation_user_id_1" {
 
 ### Known Issues
 
-<details>
-<summary><b>n/a</b></summary>
-
-######
+Known issues are documented with the GitHub repo's issues functionality. Please filter the issues by **Types** and select **Known Issue** to get the appropriate issues and read the results carefully before using the module to avoid negative impacts on your infrastructure.  
   
-</details>
+<a name="known_issues"></a> [list of Known Issues](https://github.com/uplink-systems/terraform-module-azuread-invitation/issues?q=type%3A%22known%20issue%22)
