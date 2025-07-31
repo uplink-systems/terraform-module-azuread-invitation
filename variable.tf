@@ -9,7 +9,7 @@ variable "invitation" {
   type        = object({
     user_display_name   = string
     user_email_address  = string
-    redirect_url        = optional(string, "https://microsoft365.com")
+    redirect_url        = optional(string, null)
     user_type           = optional(string, null)
     message             = optional(object({
       enabled               = optional(bool, true)

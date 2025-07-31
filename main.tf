@@ -13,7 +13,7 @@ resource "azuread_invitation" "invitation" {
       language              = var.invitation.message.body == null ? var.invitation.message.language : null
     }
   }
-  redirect_url        = var.invitation.redirect_url
+  redirect_url        = var.invitation.redirect_url == null ? "https://microsoft365.com" : var.invitation.redirect_url
   user_type           = var.invitation.user_type
   lifecycle {
     ignore_changes    = [ message ]

@@ -21,7 +21,7 @@ The module **terraform-module-azuread-invitation** is intended to create invitat
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_invitation"></a> [invitation](#input\_invitation) | 'var.invitation' is the main variable for azuread_invitation resource settings | <pre>type        = object({<br>  user_display_name   = string<br>  user_email_address  = string<br>  redirect_url        = optional(string, "https://microsoft365.com")<br>  user_type           = optional(string, null)<br>  message             = optional(object({<br>    enabled               = optional(bool, true)<br>    additional_recipients = optional(list(string), null)<br>    body                  = optional(string, null)<br>    language              = optional(string, null)<br>  }), { enabled = false })<br>})<br></pre> | none | yes |
+| <a name="input_invitation"></a> [invitation](#input\_invitation) | 'var.invitation' is the main variable for azuread_invitation resource settings | <pre>type        = object({<br>  user_display_name   = string<br>  user_email_address  = string<br>  redirect_url        = optional(string, null)<br>  user_type           = optional(string, null)<br>  message             = optional(object({<br>    enabled               = optional(bool, true)<br>    additional_recipients = optional(list(string), null)<br>    body                  = optional(string, null)<br>    language              = optional(string, null)<br>  }), { enabled = false })<br>})<br></pre> | none | yes |
 
 ### Outputs
 
