@@ -9,7 +9,7 @@ The module **terraform-module-azuread-invitation** is intended to create invitat
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.9.0 |
-| <a name="requirement_azuread"></a> [hashicorp\/azuread](#requirement\_azuread) | ~> 3.0 |
+| <a name="requirement_azuread"></a> [hashicorp\/azuread](#requirement\_azuread) | >= 3.4 |
 
 ### Resources
 
