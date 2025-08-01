@@ -17,5 +17,6 @@ variable "client_id" {
 variable "client_secret" {
   type        = string
   description = "'Terraform' app registration's Client Secret (Secret Value) to authenticate to tenant"
+  sensitive   = true
   default     = "yourSecretValue"
 }
