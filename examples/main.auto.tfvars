@@ -7,7 +7,7 @@ azuread_invitation = {
     user_display_name   = "Schlemmer, Horst - Gast AG"
     user_email_address  = "horst.schlemmer@gast.com"
     message             = {
-        language          = "DE"
+        language          = "de-DE"
     }
   }
   "00003" = {
